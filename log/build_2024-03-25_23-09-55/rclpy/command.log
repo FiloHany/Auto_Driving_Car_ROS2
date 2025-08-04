@@ -1,0 +1,2 @@
+Invoking command in '/home/filo/bumperbot_ws/build/rclpy': /usr/bin/cmake /home/filo/bumperbot_ws/src/rclpy/rclpy -DCMAKE_INSTALL_PREFIX=/home/filo/bumperbot_ws/install/rclpy
+Invoked command in '/home/filo/bumperbot_ws/build/rclpy' returned '1': /usr/bin/cmake /home/filo/bumperbot_ws/src/rclpy/rclpy -DCMAKE_INSTALL_PREFIX=/home/filo/bumperbot_ws/install/rclpy

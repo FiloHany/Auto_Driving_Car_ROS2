@@ -1,0 +1,61 @@
+[0.217s] Invoking command in '/home/filo/bumperbot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/filo/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/filo/bumperbot_ws/build/bumperbot_localization -- -j8 -l8
+[1.120s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.307s] -- Found rclpy: 3.3.12 (/opt/ros/humble/share/rclpy/cmake)
+[2.354s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.994s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.126s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.295s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.433s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.579s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.210s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.521s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.886s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.888s] -- Added test 'lint_cmake' to check CMake code style
+[4.889s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.891s] -- Added test 'xmllint' to check XML markup files
+[4.893s] -- Configuring done
+[4.940s] -- Generating done
+[4.942s] -- Build files have been written to: /home/filo/bumperbot_ws/build/bumperbot_localization
+[4.984s] Built target ament_cmake_python_copy_bumperbot_localization
+[5.242s] running egg_info
+[5.242s] creating bumperbot_localization.egg-info
+[5.243s] writing bumperbot_localization.egg-info/PKG-INFO
+[5.243s] writing dependency_links to bumperbot_localization.egg-info/dependency_links.txt
+[5.243s] writing top-level names to bumperbot_localization.egg-info/top_level.txt
+[5.243s] writing manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[5.245s] reading manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[5.246s] writing manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[5.270s] Built target ament_cmake_python_build_bumperbot_localization_egg
+[5.280s] Invoked command in '/home/filo/bumperbot_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/filo/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/filo/bumperbot_ws/build/bumperbot_localization -- -j8 -l8
+[5.302s] Invoking command in '/home/filo/bumperbot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/filo/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/filo/bumperbot_ws/build/bumperbot_localization
+[5.308s] -- Install configuration: ""
+[5.308s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/pythonpath.sh
+[5.308s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/pythonpath.dsv
+[5.309s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info
+[5.309s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info/top_level.txt
+[5.309s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info/PKG-INFO
+[5.309s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.309s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.310s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization
+[5.310s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/__init__.py
+[5.310s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/kalman_filter.py
+[5.342s] Listing '/home/filo/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization'...
+[5.342s] Compiling '/home/filo/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/__init__.py'...
+[5.342s] Compiling '/home/filo/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/kalman_filter.py'...
+[5.348s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter.py
+[5.348s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/package_run_dependencies/bumperbot_localization
+[5.348s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/parent_prefix_path/bumperbot_localization
+[5.348s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/ament_prefix_path.sh
+[5.348s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/ament_prefix_path.dsv
+[5.349s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/path.sh
+[5.349s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/path.dsv
+[5.349s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.bash
+[5.349s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.sh
+[5.349s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.zsh
+[5.349s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.dsv
+[5.350s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.dsv
+[5.350s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/packages/bumperbot_localization
+[5.350s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/cmake/bumperbot_localizationConfig.cmake
+[5.350s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/cmake/bumperbot_localizationConfig-version.cmake
+[5.350s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.xml
+[5.352s] Invoked command in '/home/filo/bumperbot_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/filo/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/filo/bumperbot_ws/build/bumperbot_localization

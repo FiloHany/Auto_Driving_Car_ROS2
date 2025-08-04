@@ -1,0 +1,1 @@
+Invoking command in '/home/filo/bumperbot_ws/build/bumperbot_cpp_examples': /usr/bin/cmake /home/filo/bumperbot_ws/src/bumperbot_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/filo/bumperbot_ws/install/bumperbot_cpp_examples

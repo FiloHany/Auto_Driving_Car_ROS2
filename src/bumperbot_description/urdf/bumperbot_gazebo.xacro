@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+
+
+<robot name="bumperbot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <transmission name="wheel_right_transmission">
+        <plugin>transmission_interface/SimpleTransmission</plugin>
+        <actuator name="wheel_right_motor" role="actuator_right" />
+        <joint name="wheel_right_joint" role="joint_right">
+            <mechanical_reduction>1.0</mechanical_reduction>
+        </joint>
+    </transmission>
+
+    <transmission name="wheel_left_transmission">
+        <plugin>transmission_interface/SimpleTransmission</plugin>
+        <actuator name="wheel_left_motor" role="actuator_left" />
+        <joint name="wheel_left_joint" role="joint_left">
+            <mechanical_reduction>1.0</mechanical_reduction>
+        </joint>
+    </transmission>
+
+    <gazebo reference="wheel_right_link">
+        <mu1>100000000000000.0</mu1>
+        <mu2>100000000000000.0</mu2>
+        <kp>1000000000000.0</kp>
+        <kd>10.0</kd>
+        <minDepth>0.001</minDepth>
+        <maxVel>0.1</maxVel>
+        <fdir1>1 0 0</fdir1>
+    </gazebo>
+
+    <gazebo reference="wheel_left_link">
+        <mu1>100000000000000.0</mu1>
+        <mu2>100000000000000.0</mu2>
+        <kp>1000000000000.0</kp>
+        <kd>10.0</kd>
+        <minDepth>0.001</minDepth>
+        <maxVel>0.1</maxVel>
+        <fdir1>1 0 0</fdir1>
+    </gazebo>
+
+    <gazebo reference="caster_front_link">
+        <mu1>0.1</mu1>
+        <mu2>0.1</mu2>
+        <kp>1000000.0</kp>
+        <kd>100.0</kd>
+        <minDepth>0.001</minDepth>
+        <maxVel>0.1</maxVel>
+    </gazebo>
+
+    <gazebo reference="caster_rear_link">
+        <mu1>0.1</mu1>
+        <mu2>0.1</mu2>
+        <kp>1000000.0</kp>
+        <kd>100.0</kd>
+        <minDepth>0.001</minDepth>
+        <maxVel>0.1</maxVel>
+    </gazebo>
+
+    <gazebo>
+        <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+            <robot_param>robot_description</robot_param>
+            <robot_param_node>robot_state_publisher</robot_param_node>
+            <parameters>$(find bumperbot_controller)/config/bumperbot_controllers.yaml</parameters>
+        </plugin>
+    </gazebo>
+
+    <gazebo reference="rgb_cam_camera_link_frame">
+        <sensor type="camera" name="rgb_cam">
+            <always_on>1</always_on>
+            <update_rate>10.0</update_rate>
+            <camera name="rgb_cam">
+                <pose>0 0 0 0 0 0</pose>
+                <horizontal_fov>1.3962634</horizontal_fov>
+                <image>
+                    <width>640</width>
+                    <height>480</height>
+                    <format>R8G8B8</format>
+                </image>
+                <clip>
+                    <near>0.005</near>
+                    <far>20.0</far>
+                </clip>
+            </camera>
+            <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+                <alwaysOn>true</alwaysOn>
+                <updateRate>0.0</updateRate>
+                <cameraName>rgb_cam</cameraName>
+                <imageTopicName>image_raw</imageTopicName>
+                <cameraInfoTopicName>camera_info</cameraInfoTopicName>
+                <frameName>rgb_cam_camera_link_frame</frameName>
+                <hackBaseline>0.07</hackBaseline>
+                <distortionK1>0.0</distortionK1>
+                <distortionK2>0.0</distortionK2>
+                <distortionK3>0.0</distortionK3>
+                <distortionT1>0.0</distortionT1>
+                <distortionT2>0.0</distortionT2>
+            </plugin>
+        </sensor>
+    </gazebo>
+
+    <gazebo reference="imu_link">
+        <sensor name="imu" type="imu">
+            <always_on>true</always_on>
+            <update_rate>100</update_rate>
+            <imu>
+                <angular_velocity>
+                    <x>
+                        <noise type="gaussian">
+                            <mean>0.0</mean>
+                            <stddev>2e-4</stddev>
+                        </noise>
+                    </x>
+                    <y>
+                        <noise type="gaussian">
+                            <mean>0.0</mean>
+                            <stddev>2e-4</stddev>
+                        </noise>
+                    </y>
+                    <z>
+                        <noise type="gaussian">
+                            <mean>0.0</mean>
+                            <stddev>2e-4</stddev>
+                        </noise>
+                    </z>
+                </angular_velocity>
+                <linear_acceleration>
+                    <x>
+                        <noise type="gaussian">
+                            <mean>0.0</mean>
+                            <stddev>1.7e-2</stddev>
+                        </noise>
+                    </x>
+                    <y>
+                        <noise type="gaussian">
+                            <mean>0.0</mean>
+                            <stddev>1.7e-2</stddev>
+                        </noise>
+                    </y>
+                    <z>
+                        <noise type="gaussian">
+                            <mean>0.0</mean>
+                            <stddev>1.7e-2</stddev>
+                        </noise>
+                    </z>
+                </linear_acceleration>
+            </imu>
+            <plugin name="imu" filename="libgazebo_ros_imu_sensor.so" />
+        </sensor>
+    </gazebo>
+
+
+</robot>

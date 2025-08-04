@@ -1,0 +1,21 @@
+[0.013s] Invoking command in '/home/filo/bumperbot_ws/build/bumperbot_cpp_examples': /usr/bin/cmake --build /home/filo/bumperbot_ws/build/bumperbot_cpp_examples -- -j8 -l8
+[0.039s] Invoked command in '/home/filo/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': /usr/bin/cmake --build /home/filo/bumperbot_ws/build/bumperbot_cpp_examples -- -j8 -l8
+[0.081s] Invoking command in '/home/filo/bumperbot_ws/build/bumperbot_cpp_examples': /usr/bin/cmake --install /home/filo/bumperbot_ws/build/bumperbot_cpp_examples
+[0.086s] -- Install configuration: ""
+[0.087s] -- Execute custom install script
+[0.087s] -- Up-to-date symlink: /home/filo/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples
+[0.087s] -- Up-to-date symlink: /home/filo/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples
+[0.088s] -- Up-to-date symlink: /home/filo/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.sh
+[0.088s] -- Up-to-date symlink: /home/filo/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.dsv
+[0.088s] -- Up-to-date symlink: /home/filo/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.sh
+[0.089s] -- Up-to-date symlink: /home/filo/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.dsv
+[0.091s] -- Up-to-date symlink: /home/filo/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.bash
+[0.093s] -- Up-to-date symlink: /home/filo/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.sh
+[0.094s] -- Up-to-date symlink: /home/filo/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.zsh
+[0.095s] -- Up-to-date symlink: /home/filo/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.dsv
+[0.095s] -- Symlinking: /home/filo/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv
+[0.099s] -- Up-to-date symlink: /home/filo/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/packages/bumperbot_cpp_examples
+[0.099s] -- Up-to-date symlink: /home/filo/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig.cmake
+[0.099s] -- Up-to-date symlink: /home/filo/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig-version.cmake
+[0.100s] -- Up-to-date symlink: /home/filo/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.xml
+[0.111s] Invoked command in '/home/filo/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': /usr/bin/cmake --install /home/filo/bumperbot_ws/build/bumperbot_cpp_examples

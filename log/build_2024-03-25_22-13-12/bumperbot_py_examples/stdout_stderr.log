@@ -1,0 +1,16 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing bumperbot_py_examples.egg-info/PKG-INFO
+writing dependency_links to bumperbot_py_examples.egg-info/dependency_links.txt
+writing entry points to bumperbot_py_examples.egg-info/entry_points.txt
+writing requirements to bumperbot_py_examples.egg-info/requires.txt
+writing top-level names to bumperbot_py_examples.egg-info/top_level.txt
+reading manifest file 'bumperbot_py_examples.egg-info/SOURCES.txt'
+writing manifest file 'bumperbot_py_examples.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/filo/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot-py-examples.egg-link (link to .)
+
+Installed /home/filo/bumperbot_ws/build/bumperbot_py_examples
+running symlink_data

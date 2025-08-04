@@ -1,0 +1,169 @@
+[0.143s] Invoking command in '/home/filo/bumperbot_ws/build/bumperbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/filo/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/filo/bumperbot_ws/build/bumperbot_msgs -- -j8 -l8
+[1.080s] [  2%] Built target bumperbot_msgs__cpp
+[1.197s] [ 12%] Built target bumperbot_msgs__rosidl_generator_c
+[1.316s] [ 23%] Built target bumperbot_msgs__rosidl_typesupport_fastrtps_cpp
+[1.317s] [ 33%] Built target bumperbot_msgs__rosidl_typesupport_fastrtps_c
+[1.329s] [ 43%] Built target bumperbot_msgs__rosidl_typesupport_introspection_cpp
+[1.342s] [ 53%] Built target bumperbot_msgs__rosidl_typesupport_introspection_c
+[1.342s] [ 53%] Built target ament_cmake_python_copy_bumperbot_msgs
+[1.345s] [ 74%] Built target bumperbot_msgs__rosidl_typesupport_c
+[1.345s] [ 74%] Built target bumperbot_msgs__rosidl_typesupport_cpp
+[1.363s] [ 74%] Built target bumperbot_msgs
+[1.397s] [ 76%] Built target bumperbot_msgs__py
+[1.416s] [ 84%] Built target bumperbot_msgs__rosidl_generator_py
+[1.449s] [ 89%] Built target bumperbot_msgs__rosidl_typesupport_c__pyext
+[1.471s] [100%] Built target bumperbot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.471s] [100%] Built target bumperbot_msgs__rosidl_typesupport_introspection_c__pyext
+[1.710s] running egg_info
+[1.711s] writing bumperbot_msgs.egg-info/PKG-INFO
+[1.712s] writing dependency_links to bumperbot_msgs.egg-info/dependency_links.txt
+[1.712s] writing top-level names to bumperbot_msgs.egg-info/top_level.txt
+[1.765s] reading manifest file 'bumperbot_msgs.egg-info/SOURCES.txt'
+[1.775s] writing manifest file 'bumperbot_msgs.egg-info/SOURCES.txt'
+[1.828s] [100%] Built target ament_cmake_python_build_bumperbot_msgs_egg
+[1.840s] Invoked command in '/home/filo/bumperbot_ws/build/bumperbot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/filo/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/filo/bumperbot_ws/build/bumperbot_msgs -- -j8 -l8
+[1.899s] Invoking command in '/home/filo/bumperbot_ws/build/bumperbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/filo/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/filo/bumperbot_ws/build/bumperbot_msgs
+[1.996s] -- Install configuration: ""
+[1.997s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/ament_index/resource_index/rosidl_interfaces/bumperbot_msgs
+[1.997s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs
+[1.997s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv
+[1.998s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/get_transform.h
+[1.998s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/add_two_ints.h
+[1.998s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail
+[1.998s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__type_support.h
+[1.999s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__functions.h
+[1.999s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__type_support.h
+[1.999s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__struct.h
+[2.000s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__functions.c
+[2.000s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__functions.h
+[2.000s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__struct.h
+[2.000s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__functions.c
+[2.001s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg
+[2.001s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.001s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/library_path.sh
+[2.002s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/library_path.dsv
+[2.023s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_generator_c.so
+[2.024s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs
+[2.025s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv
+[2.025s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail
+[2.026s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h
+[2.026s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__rosidl_typesupport_fastrtps_c.h
+[2.027s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg
+[2.027s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.027s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_fastrtps_c.so
+[2.028s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs
+[2.028s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv
+[2.028s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/add_two_ints.hpp
+[2.028s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/get_transform.hpp
+[2.029s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail
+[2.029s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__struct.hpp
+[2.029s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__builder.hpp
+[2.029s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__builder.hpp
+[2.029s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__traits.hpp
+[2.029s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__traits.hpp
+[2.030s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__struct.hpp
+[2.030s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs
+[2.030s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv
+[2.030s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail
+[2.030s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__rosidl_typesupport_fastrtps_cpp.hpp
+[2.030s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/dds_fastrtps
+[2.031s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[2.031s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg
+[2.031s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.042s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.042s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs
+[2.042s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv
+[2.042s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail
+[2.043s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__rosidl_typesupport_introspection_c.h
+[2.043s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h
+[2.043s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__type_support.c
+[2.043s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__type_support.c
+[2.043s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg
+[2.043s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.048s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_introspection_c.so
+[2.048s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_c.so
+[2.048s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs
+[2.048s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv
+[2.049s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail
+[2.049s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__rosidl_typesupport_introspection_cpp.hpp
+[2.049s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__type_support.cpp
+[2.049s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp
+[2.049s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__type_support.cpp
+[2.049s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_introspection_cpp.so
+[2.050s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_cpp.so
+[2.050s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/pythonpath.sh
+[2.050s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/pythonpath.dsv
+[2.050s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs-0.0.0-py3.10.egg-info
+[2.050s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[2.050s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[2.051s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.051s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.051s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs
+[2.051s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.051s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_c.c
+[2.051s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/__init__.py
+[2.051s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.051s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.052s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.052s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/libbumperbot_msgs__rosidl_generator_py.so
+[2.052s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.052s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/srv
+[2.052s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/srv/_add_two_ints.py
+[2.052s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/srv/_get_transform.py
+[2.052s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/srv/_add_two_ints_s.c
+[2.052s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/srv/__init__.py
+[2.052s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/srv/_get_transform_s.c
+[2.176s] Listing '/home/filo/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs'...
+[2.177s] Listing '/home/filo/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/srv'...
+[2.206s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.221s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.222s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.224s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_generator_py.so
+[2.225s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/AddTwoInts.idl
+[2.225s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/GetTransform.idl
+[2.226s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/AddTwoInts.srv
+[2.227s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/AddTwoInts_Request.msg
+[2.227s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/AddTwoInts_Response.msg
+[2.227s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/GetTransform.srv
+[2.228s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/GetTransform_Request.msg
+[2.228s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/GetTransform_Response.msg
+[2.228s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/ament_index/resource_index/package_run_dependencies/bumperbot_msgs
+[2.229s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/ament_index/resource_index/parent_prefix_path/bumperbot_msgs
+[2.229s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/ament_prefix_path.sh
+[2.229s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/ament_prefix_path.dsv
+[2.229s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/path.sh
+[2.230s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/path.dsv
+[2.230s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.bash
+[2.230s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.sh
+[2.231s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.zsh
+[2.231s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.dsv
+[2.231s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/package.dsv
+[2.247s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/ament_index/resource_index/packages/bumperbot_msgs
+[2.275s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_cExport.cmake
+[2.275s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.280s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.280s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.280s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_cppExport.cmake
+[2.281s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.281s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.281s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.281s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.282s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cExport.cmake
+[2.282s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.319s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.319s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.343s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cppExport.cmake
+[2.344s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.345s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_pyExport.cmake
+[2.346s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.346s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/rosidl_cmake-extras.cmake
+[2.346s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.347s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.347s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.347s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.348s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.348s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.348s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgsConfig.cmake
+[2.348s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgsConfig-version.cmake
+[2.349s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/package.xml
+[2.374s] Invoked command in '/home/filo/bumperbot_ws/build/bumperbot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/filo/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/filo/bumperbot_ws/build/bumperbot_msgs

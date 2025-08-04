@@ -1,0 +1,37 @@
+[1.768s] Invoking command in '/home/filo/bumperbot_ws/src/bumperbot_py_examples': CMAKE_PREFIX_PATH=/home/filo/bumperbot_ws/install/bumperbot_msgs:/home/filo/bumperbot_ws/install/v4l2_camera:/home/filo/bumperbot_ws/install/bumperbot_localization:/home/filo/bumperbot_ws/install/bumperbot_controller:/home/filo/bumperbot_ws/install/bumperbot_description:/home/filo/bumperbot_ws/install/bumperbot_cpp_examples LD_LIBRARY_PATH=/home/filo/bumperbot_ws/install/bumperbot_msgs/lib:/home/filo/bumperbot_ws/install/v4l2_camera/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/filo/bumperbot_ws/build/bumperbot_py_examples/prefix_override:/home/filo/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py_examples build --build-base /home/filo/bumperbot_ws/build/bumperbot_py_examples/build install --record /home/filo/bumperbot_ws/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data
+[2.342s] running egg_info
+[2.382s] writing ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/PKG-INFO
+[2.383s] writing dependency_links to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/dependency_links.txt
+[2.383s] writing entry points to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/entry_points.txt
+[2.383s] writing requirements to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/requires.txt
+[2.384s] writing top-level names to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/top_level.txt
+[2.466s] reading manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[2.467s] writing manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[2.468s] running build
+[2.468s] running build_py
+[2.468s] copying bumperbot_py_examples/__init__.py -> /home/filo/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[2.469s] copying bumperbot_py_examples/simple_publisher.py -> /home/filo/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[2.469s] copying bumperbot_py_examples/simple_service_server.py -> /home/filo/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[2.469s] copying bumperbot_py_examples/simple_tf_kinematics.py -> /home/filo/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[2.470s] copying bumperbot_py_examples/simple_turtlesim_kinematics.py -> /home/filo/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[2.470s] copying bumperbot_py_examples/simple_service_client.py -> /home/filo/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[2.470s] copying bumperbot_py_examples/simple_parameter.py -> /home/filo/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[2.470s] copying bumperbot_py_examples/simple_subscriber.py -> /home/filo/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[2.471s] running install
+[2.482s] running install_lib
+[2.523s] running install_data
+[2.523s] copying resource/bumperbot_py_examples -> /home/filo/bumperbot_ws/install/bumperbot_py_examples/share/ament_index/resource_index/packages
+[2.523s] copying package.xml -> /home/filo/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples
+[2.524s] running install_egg_info
+[2.569s] removing '/home/filo/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples-0.0.0-py3.10.egg-info' (and everything under it)
+[2.570s] Copying ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info to /home/filo/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples-0.0.0-py3.10.egg-info
+[2.572s] running install_scripts
+[2.923s] Installing simple_parameter script to /home/filo/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[2.923s] Installing simple_publisher script to /home/filo/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[2.924s] Installing simple_service_client script to /home/filo/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[2.924s] Installing simple_service_server script to /home/filo/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[2.924s] Installing simple_subscriber script to /home/filo/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[2.925s] Installing simple_tf_kinematics script to /home/filo/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[2.925s] Installing simple_turtlesim_kinematics script to /home/filo/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[2.926s] writing list of installed files to '/home/filo/bumperbot_ws/build/bumperbot_py_examples/install.log'
+[2.971s] Invoked command in '/home/filo/bumperbot_ws/src/bumperbot_py_examples' returned '0': CMAKE_PREFIX_PATH=/home/filo/bumperbot_ws/install/bumperbot_msgs:/home/filo/bumperbot_ws/install/v4l2_camera:/home/filo/bumperbot_ws/install/bumperbot_localization:/home/filo/bumperbot_ws/install/bumperbot_controller:/home/filo/bumperbot_ws/install/bumperbot_description:/home/filo/bumperbot_ws/install/bumperbot_cpp_examples LD_LIBRARY_PATH=/home/filo/bumperbot_ws/install/bumperbot_msgs/lib:/home/filo/bumperbot_ws/install/v4l2_camera/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/filo/bumperbot_ws/build/bumperbot_py_examples/prefix_override:/home/filo/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py_examples build --build-base /home/filo/bumperbot_ws/build/bumperbot_py_examples/build install --record /home/filo/bumperbot_ws/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data

@@ -1,0 +1,36 @@
+[0.224s] Invoking command in '/home/filo/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/filo/bumperbot_ws/build/bumperbot_description -- -j8 -l8
+[1.531s] Invoked command in '/home/filo/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/filo/bumperbot_ws/build/bumperbot_description -- -j8 -l8
+[1.646s] Invoking command in '/home/filo/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/filo/bumperbot_ws/build/bumperbot_description
+[1.693s] -- Install configuration: ""
+[1.694s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes
+[1.695s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/caster_rear_link.STL
+[1.695s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/imu_link.STL
+[1.696s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/caster_front_link.STL
+[1.696s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/base_link.STL
+[1.697s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/wheel_left_link.STL
+[1.697s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/wheel_right_link.STL
+[1.698s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf
+[1.698s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot_gazebo.xacro
+[1.698s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot_ros2_control.xacro
+[1.698s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot.udrf.xacro
+[1.699s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch
+[1.701s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch/gazebo.launch.py
+[1.702s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch/display.launch.py
+[1.702s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/rviz
+[1.703s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/rviz/display.rviz
+[1.704s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/package_run_dependencies/bumperbot_description
+[1.708s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/parent_prefix_path/bumperbot_description
+[1.709s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.sh
+[1.710s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.dsv
+[1.710s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/path.sh
+[1.711s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/path.dsv
+[1.711s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.bash
+[1.711s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.sh
+[1.711s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.zsh
+[1.712s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.dsv
+[1.712s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.dsv
+[1.727s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/packages/bumperbot_description
+[1.727s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig.cmake
+[1.728s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig-version.cmake
+[1.728s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.xml
+[1.846s] Invoked command in '/home/filo/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/filo/bumperbot_ws/build/bumperbot_description

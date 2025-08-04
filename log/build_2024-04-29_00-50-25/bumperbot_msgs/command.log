@@ -1,0 +1,1 @@
+Invoking command in '/home/filo/bumperbot_ws/build/bumperbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/filo/bumperbot_ws/install/bumperbot_py_examples /usr/bin/cmake --build /home/filo/bumperbot_ws/build/bumperbot_msgs -- -j8 -l8

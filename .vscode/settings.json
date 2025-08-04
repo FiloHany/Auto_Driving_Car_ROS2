@@ -1,0 +1,15 @@
+{
+    "ros.distro": "humble",
+    "python.autoComplete.extraPaths": [
+        "/home/filo/bumperbot_ws/build/bumperbot_py_examples",
+        "/home/filo/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/filo/bumperbot_ws/build/bumperbot_py_examples",
+        "/home/filo/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

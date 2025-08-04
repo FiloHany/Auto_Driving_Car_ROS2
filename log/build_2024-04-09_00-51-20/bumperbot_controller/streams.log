@@ -1,0 +1,29 @@
+[0.041s] Invoking command in '/home/filo/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/filo/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/filo/bumperbot_ws/build/bumperbot_controller -- -j8 -l8
+[0.258s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.859s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.020s] -- Added test 'lint_cmake' to check CMake code style
+[1.023s] -- Added test 'xmllint' to check XML markup files
+[1.025s] -- Configuring done
+[1.053s] -- Generating done
+[1.055s] -- Build files have been written to: /home/filo/bumperbot_ws/build/bumperbot_controller
+[1.087s] Invoked command in '/home/filo/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/filo/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/filo/bumperbot_ws/build/bumperbot_controller -- -j8 -l8
+[1.120s] Invoking command in '/home/filo/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/filo/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/filo/bumperbot_ws/build/bumperbot_controller
+[1.131s] -- Install configuration: ""
+[1.132s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config
+[1.132s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml
+[1.132s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
+[1.132s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller
+[1.133s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh
+[1.133s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv
+[1.133s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh
+[1.133s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv
+[1.134s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash
+[1.134s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh
+[1.134s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh
+[1.134s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv
+[1.135s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv
+[1.135s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller
+[1.135s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake
+[1.135s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake
+[1.135s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.xml
+[1.139s] Invoked command in '/home/filo/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/filo/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/filo/bumperbot_ws/build/bumperbot_controller

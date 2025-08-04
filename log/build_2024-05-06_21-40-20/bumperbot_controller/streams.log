@@ -1,0 +1,49 @@
+[0.218s] Invoking command in '/home/filo/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/filo/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/filo/bumperbot_ws/build/bumperbot_controller -- -j8 -l8
+[1.710s] Built target ament_cmake_python_copy_bumperbot_controller
+[2.718s] running egg_info
+[2.720s] writing bumperbot_controller.egg-info/PKG-INFO
+[2.721s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[2.721s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[2.735s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[2.737s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[2.792s] Built target ament_cmake_python_build_bumperbot_controller_egg
+[2.809s] Invoked command in '/home/filo/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/filo/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/filo/bumperbot_ws/build/bumperbot_controller -- -j8 -l8
+[2.846s] Invoking command in '/home/filo/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/filo/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/filo/bumperbot_ws/build/bumperbot_controller
+[2.856s] -- Install configuration: ""
+[2.857s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.sh
+[2.857s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.dsv
+[2.857s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info
+[2.857s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/top_level.txt
+[2.857s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[2.858s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.858s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.858s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller
+[2.858s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/__init__.py
+[2.858s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller.py
+[2.858s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/noisy_controller.py
+[2.997s] Listing '/home/filo/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller'...
+[3.005s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config
+[3.005s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml
+[3.006s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_teleop.yaml
+[3.006s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_config.yaml
+[3.006s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch
+[3.006s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py
+[3.006s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/joystick_teleop.launch.py
+[3.007s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller.py
+[3.007s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller.py
+[3.007s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
+[3.007s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller
+[3.007s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh
+[3.007s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv
+[3.007s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh
+[3.008s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv
+[3.008s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash
+[3.008s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh
+[3.008s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh
+[3.008s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv
+[3.008s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv
+[3.031s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller
+[3.031s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake
+[3.031s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake
+[3.031s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.xml
+[3.036s] Invoked command in '/home/filo/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/filo/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/filo/bumperbot_ws/build/bumperbot_controller

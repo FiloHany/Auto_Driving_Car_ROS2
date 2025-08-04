@@ -1,0 +1,22 @@
+[0.026s] Invoking command in '/home/filo/bumperbot_ws/build/bumperbot_controller': /usr/bin/cmake --build /home/filo/bumperbot_ws/build/bumperbot_controller -- -j8 -l8
+[0.060s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.289s] Traceback (most recent call last):
+[0.289s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.289s]     from ament_package.templates import get_environment_hook_template_path
+[0.289s] ModuleNotFoundError: No module named 'ament_package'
+[0.306s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.307s]   execute_process(/usr/bin/python3
+[0.307s]   /opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.307s]   /home/filo/bumperbot_ws/build/bumperbot_controller/ament_cmake_package_templates/templates.cmake)
+[0.307s]   returned error code 1
+[0.307s] Call Stack (most recent call first):
+[0.308s]   /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.308s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.308s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.308s]   CMakeLists.txt:8 (find_package)
+[0.308s] 
+[0.309s] [0m
+[0.309s] -- Configuring incomplete, errors occurred!
+[0.309s] See also "/home/filo/bumperbot_ws/build/bumperbot_controller/CMakeFiles/CMakeOutput.log".
+[0.311s] gmake: *** [Makefile:254: cmake_check_build_system] Error 1
+[0.444s] Invoked command in '/home/filo/bumperbot_ws/build/bumperbot_controller' returned '2': /usr/bin/cmake --build /home/filo/bumperbot_ws/build/bumperbot_controller -- -j8 -l8

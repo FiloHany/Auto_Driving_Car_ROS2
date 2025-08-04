@@ -1,0 +1,33 @@
+[2.660s] Invoking command in '/home/filo/bumperbot_ws/src/bumperbot_py_examples': PYTHONPATH=/home/filo/bumperbot_ws/build/bumperbot_py_examples/prefix_override:/home/filo/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py_examples build --build-base /home/filo/bumperbot_ws/build/bumperbot_py_examples/build install --record /home/filo/bumperbot_ws/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data
+[2.884s] running egg_info
+[2.885s] creating ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info
+[2.885s] writing ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/PKG-INFO
+[2.885s] writing dependency_links to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/dependency_links.txt
+[2.885s] writing entry points to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/entry_points.txt
+[2.886s] writing requirements to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/requires.txt
+[2.886s] writing top-level names to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/top_level.txt
+[2.886s] writing manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[2.887s] reading manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[2.888s] writing manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[2.888s] running build
+[2.888s] running build_py
+[2.888s] creating /home/filo/bumperbot_ws/build/bumperbot_py_examples/build
+[2.888s] creating /home/filo/bumperbot_ws/build/bumperbot_py_examples/build/lib
+[2.888s] creating /home/filo/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[2.888s] copying bumperbot_py_examples/__init__.py -> /home/filo/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[2.888s] running install
+[2.888s] running install_lib
+[2.889s] creating /home/filo/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[2.889s] copying /home/filo/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/__init__.py -> /home/filo/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[2.889s] byte-compiling /home/filo/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/__init__.py to __init__.cpython-310.pyc
+[2.890s] running install_data
+[2.890s] creating /home/filo/bumperbot_ws/install/bumperbot_py_examples/share/ament_index
+[2.890s] creating /home/filo/bumperbot_ws/install/bumperbot_py_examples/share/ament_index/resource_index
+[2.890s] creating /home/filo/bumperbot_ws/install/bumperbot_py_examples/share/ament_index/resource_index/packages
+[2.890s] copying resource/bumperbot_py_examples -> /home/filo/bumperbot_ws/install/bumperbot_py_examples/share/ament_index/resource_index/packages
+[2.890s] copying package.xml -> /home/filo/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples
+[2.890s] running install_egg_info
+[2.892s] Copying ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info to /home/filo/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples-0.0.0-py3.10.egg-info
+[2.893s] running install_scripts
+[2.911s] writing list of installed files to '/home/filo/bumperbot_ws/build/bumperbot_py_examples/install.log'
+[2.931s] Invoked command in '/home/filo/bumperbot_ws/src/bumperbot_py_examples' returned '0': PYTHONPATH=/home/filo/bumperbot_ws/build/bumperbot_py_examples/prefix_override:/home/filo/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py_examples build --build-base /home/filo/bumperbot_ws/build/bumperbot_py_examples/build install --record /home/filo/bumperbot_ws/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data

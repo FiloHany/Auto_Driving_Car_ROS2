@@ -1,0 +1,33 @@
+[0.192s] Invoking command in '/home/filo/bumperbot_ws/build/rclpy': /usr/bin/cmake /home/filo/bumperbot_ws/src/rclpy/rclpy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/filo/bumperbot_ws/install/rclpy
+[0.847s] -- The C compiler identification is GNU 11.4.0
+[1.289s] -- The CXX compiler identification is GNU 11.4.0
+[1.297s] -- Detecting C compiler ABI info
+[1.421s] -- Detecting C compiler ABI info - done
+[1.430s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.430s] -- Detecting C compile features
+[1.454s] -- Detecting C compile features - done
+[1.457s] -- Detecting CXX compiler ABI info
+[1.599s] -- Detecting CXX compiler ABI info - done
+[1.608s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.608s] -- Detecting CXX compile features
+[1.609s] -- Detecting CXX compile features - done
+[1.661s] [31mCMake Error at CMakeLists.txt:27 (find_package):
+[1.661s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.661s]   has asked CMake to find a package configuration file provided by
+[1.661s]   "ament_cmake", but CMake did not find one.
+[1.661s] 
+[1.661s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.661s]   any of the following names:
+[1.662s] 
+[1.662s]     ament_cmakeConfig.cmake
+[1.662s]     ament_cmake-config.cmake
+[1.662s] 
+[1.662s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.662s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.662s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.662s]   has been installed.
+[1.662s] 
+[1.662s] [0m
+[1.662s] -- Configuring incomplete, errors occurred!
+[1.662s] See also "/home/filo/bumperbot_ws/build/rclpy/CMakeFiles/CMakeOutput.log".
+[1.665s] Invoked command in '/home/filo/bumperbot_ws/build/rclpy' returned '1': /usr/bin/cmake /home/filo/bumperbot_ws/src/rclpy/rclpy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/filo/bumperbot_ws/install/rclpy

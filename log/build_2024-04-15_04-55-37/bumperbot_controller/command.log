@@ -1,0 +1,2 @@
+Invoking command in '/home/filo/bumperbot_ws/build/bumperbot_controller': /usr/bin/cmake --build /home/filo/bumperbot_ws/build/bumperbot_controller -- -j8 -l8
+Invoked command in '/home/filo/bumperbot_ws/build/bumperbot_controller' returned '2': /usr/bin/cmake --build /home/filo/bumperbot_ws/build/bumperbot_controller -- -j8 -l8

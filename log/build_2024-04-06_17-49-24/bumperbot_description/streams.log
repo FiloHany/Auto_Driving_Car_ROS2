@@ -1,0 +1,36 @@
+[0.129s] Invoking command in '/home/filo/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/filo/bumperbot_ws/build/bumperbot_description -- -j8 -l8
+[0.518s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.042s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.197s] -- Added test 'lint_cmake' to check CMake code style
+[1.200s] -- Added test 'xmllint' to check XML markup files
+[1.201s] -- Configuring done
+[1.224s] -- Generating done
+[1.225s] -- Build files have been written to: /home/filo/bumperbot_ws/build/bumperbot_description
+[1.256s] Invoked command in '/home/filo/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/filo/bumperbot_ws/build/bumperbot_description -- -j8 -l8
+[1.288s] Invoking command in '/home/filo/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/filo/bumperbot_ws/build/bumperbot_description
+[1.299s] -- Install configuration: ""
+[1.299s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes
+[1.300s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/caster_rear_link.STL
+[1.300s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/imu_link.STL
+[1.300s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/caster_front_link.STL
+[1.300s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/base_link.STL
+[1.300s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/wheel_left_link.STL
+[1.301s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/wheel_right_link.STL
+[1.301s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf
+[1.301s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumberpot.udrf.xacro
+[1.301s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/package_run_dependencies/bumperbot_description
+[1.301s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/parent_prefix_path/bumperbot_description
+[1.301s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.sh
+[1.301s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.dsv
+[1.301s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/path.sh
+[1.302s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/path.dsv
+[1.302s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.bash
+[1.302s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.sh
+[1.302s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.zsh
+[1.302s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.dsv
+[1.302s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.dsv
+[1.302s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/packages/bumperbot_description
+[1.302s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig.cmake
+[1.303s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig-version.cmake
+[1.303s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.xml
+[1.305s] Invoked command in '/home/filo/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/filo/bumperbot_ws/build/bumperbot_description

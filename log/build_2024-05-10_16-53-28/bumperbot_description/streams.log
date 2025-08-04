@@ -1,0 +1,37 @@
+[0.036s] Invoking command in '/home/filo/bumperbot_ws/build/bumperbot_description': /usr/bin/cmake --build /home/filo/bumperbot_ws/build/bumperbot_description -- -j8 -l8
+[0.146s] Invoked command in '/home/filo/bumperbot_ws/build/bumperbot_description' returned '0': /usr/bin/cmake --build /home/filo/bumperbot_ws/build/bumperbot_description -- -j8 -l8
+[0.265s] Invoking command in '/home/filo/bumperbot_ws/build/bumperbot_description': /usr/bin/cmake --install /home/filo/bumperbot_ws/build/bumperbot_description
+[0.314s] -- Install configuration: ""
+[0.314s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes
+[0.321s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/caster_rear_link.STL
+[0.321s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/imu_link.STL
+[0.321s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/caster_front_link.STL
+[0.322s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/base_link.STL
+[0.334s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/wheel_left_link.STL
+[0.335s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/camera_link.stl
+[0.335s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/wheel_right_link.STL
+[0.335s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf
+[0.335s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot_gazebo.xacro
+[0.335s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot_ros2_control.xacro
+[0.335s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot.udrf.xacro
+[0.335s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch
+[0.336s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch/gazebo.launch.py
+[0.336s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch/display.launch.py
+[0.336s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/rviz
+[0.336s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/rviz/display.rviz
+[0.351s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/package_run_dependencies/bumperbot_description
+[0.355s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/parent_prefix_path/bumperbot_description
+[0.356s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.sh
+[0.356s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.dsv
+[0.356s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/path.sh
+[0.356s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/path.dsv
+[0.356s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.bash
+[0.357s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.sh
+[0.357s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.zsh
+[0.357s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.dsv
+[0.363s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.dsv
+[0.363s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/packages/bumperbot_description
+[0.363s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig.cmake
+[0.363s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig-version.cmake
+[0.363s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.xml
+[0.399s] Invoked command in '/home/filo/bumperbot_ws/build/bumperbot_description' returned '0': /usr/bin/cmake --install /home/filo/bumperbot_ws/build/bumperbot_description

@@ -1,0 +1,18 @@
+[0.489s] Invoking command in '/home/filo/bumperbot_ws/build/bumperbot_py_examples': PYTHONPATH=/home/filo/bumperbot_ws/build/bumperbot_py_examples/prefix_override:/home/filo/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/filo/bumperbot_ws/build/bumperbot_py_examples/build --no-deps symlink_data
+[0.710s] running develop
+[0.711s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.711s]   warnings.warn(
+[0.808s] running egg_info
+[0.808s] writing bumperbot_py_examples.egg-info/PKG-INFO
+[0.809s] writing dependency_links to bumperbot_py_examples.egg-info/dependency_links.txt
+[0.809s] writing entry points to bumperbot_py_examples.egg-info/entry_points.txt
+[0.809s] writing requirements to bumperbot_py_examples.egg-info/requires.txt
+[0.809s] writing top-level names to bumperbot_py_examples.egg-info/top_level.txt
+[0.810s] reading manifest file 'bumperbot_py_examples.egg-info/SOURCES.txt'
+[0.811s] writing manifest file 'bumperbot_py_examples.egg-info/SOURCES.txt'
+[0.812s] running build_ext
+[0.812s] Creating /home/filo/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot-py-examples.egg-link (link to .)
+[0.818s] 
+[0.818s] Installed /home/filo/bumperbot_ws/build/bumperbot_py_examples
+[0.819s] running symlink_data
+[0.843s] Invoked command in '/home/filo/bumperbot_ws/build/bumperbot_py_examples' returned '0': PYTHONPATH=/home/filo/bumperbot_ws/build/bumperbot_py_examples/prefix_override:/home/filo/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/filo/bumperbot_ws/build/bumperbot_py_examples/build --no-deps symlink_data

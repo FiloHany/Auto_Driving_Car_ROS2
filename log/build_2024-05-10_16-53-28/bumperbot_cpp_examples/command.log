@@ -1,0 +1,4 @@
+Invoking command in '/home/filo/bumperbot_ws/build/bumperbot_cpp_examples': /usr/bin/cmake --build /home/filo/bumperbot_ws/build/bumperbot_cpp_examples -- -j8 -l8
+Invoked command in '/home/filo/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': /usr/bin/cmake --build /home/filo/bumperbot_ws/build/bumperbot_cpp_examples -- -j8 -l8
+Invoking command in '/home/filo/bumperbot_ws/build/bumperbot_cpp_examples': /usr/bin/cmake --install /home/filo/bumperbot_ws/build/bumperbot_cpp_examples
+Invoked command in '/home/filo/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': /usr/bin/cmake --install /home/filo/bumperbot_ws/build/bumperbot_cpp_examples

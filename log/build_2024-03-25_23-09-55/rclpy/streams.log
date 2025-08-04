@@ -1,0 +1,21 @@
+[0.010s] Invoking command in '/home/filo/bumperbot_ws/build/rclpy': /usr/bin/cmake /home/filo/bumperbot_ws/src/rclpy/rclpy -DCMAKE_INSTALL_PREFIX=/home/filo/bumperbot_ws/install/rclpy
+[0.027s] [31mCMake Error at CMakeLists.txt:27 (find_package):
+[0.027s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.027s]   has asked CMake to find a package configuration file provided by
+[0.027s]   "ament_cmake", but CMake did not find one.
+[0.028s] 
+[0.028s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.028s]   any of the following names:
+[0.028s] 
+[0.028s]     ament_cmakeConfig.cmake
+[0.028s]     ament_cmake-config.cmake
+[0.028s] 
+[0.028s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.028s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.028s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.029s]   has been installed.
+[0.029s] 
+[0.029s] [0m
+[0.029s] -- Configuring incomplete, errors occurred!
+[0.029s] See also "/home/filo/bumperbot_ws/build/rclpy/CMakeFiles/CMakeOutput.log".
+[0.030s] Invoked command in '/home/filo/bumperbot_ws/build/rclpy' returned '1': /usr/bin/cmake /home/filo/bumperbot_ws/src/rclpy/rclpy -DCMAKE_INSTALL_PREFIX=/home/filo/bumperbot_ws/install/rclpy

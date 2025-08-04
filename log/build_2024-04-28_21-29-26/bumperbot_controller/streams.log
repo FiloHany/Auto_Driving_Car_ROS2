@@ -1,0 +1,59 @@
+[0.212s] Invoking command in '/home/filo/bumperbot_ws/build/bumperbot_controller': /usr/bin/cmake --build /home/filo/bumperbot_ws/build/bumperbot_controller -- -j8 -l8
+[0.422s] gmake: Warning: File 'Makefile' has modification time 5879 s in the future
+[1.514s] gmake[1]: Warning: File 'CMakeFiles/Makefile2' has modification time 5878 s in the future
+[1.551s] gmake[2]: Warning: File 'CMakeFiles/ament_cmake_python_copy_bumperbot_controller.dir/progress.make' has modification time 5878 s in the future
+[1.570s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.574s] gmake[2]: Warning: File 'CMakeFiles/ament_cmake_python_copy_bumperbot_controller.dir/progress.make' has modification time 5878 s in the future
+[1.599s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.610s] Built target ament_cmake_python_copy_bumperbot_controller
+[1.630s] gmake[2]: Warning: File 'CMakeFiles/ament_cmake_python_build_bumperbot_controller_egg.dir/progress.make' has modification time 5878 s in the future
+[1.648s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.651s] gmake[2]: Warning: File 'CMakeFiles/ament_cmake_python_build_bumperbot_controller_egg.dir/progress.make' has modification time 5878 s in the future
+[2.119s] running egg_info
+[2.121s] writing bumperbot_controller.egg-info/PKG-INFO
+[2.121s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[2.122s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[2.152s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[2.153s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[2.180s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.186s] Built target ament_cmake_python_build_bumperbot_controller_egg
+[2.187s] gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.193s] gmake: warning:  Clock skew detected.  Your build may be incomplete.
+[2.195s] Invoked command in '/home/filo/bumperbot_ws/build/bumperbot_controller' returned '0': /usr/bin/cmake --build /home/filo/bumperbot_ws/build/bumperbot_controller -- -j8 -l8
+[2.210s] Invoking command in '/home/filo/bumperbot_ws/build/bumperbot_controller': /usr/bin/cmake --install /home/filo/bumperbot_ws/build/bumperbot_controller
+[2.273s] -- Install configuration: ""
+[2.274s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.sh
+[2.274s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.dsv
+[2.274s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info
+[2.274s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/top_level.txt
+[2.274s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[2.274s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.275s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.275s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller
+[2.275s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/__init__.py
+[2.275s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller.py
+[2.474s] Listing '/home/filo/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller'...
+[2.491s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config
+[2.492s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml
+[2.493s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_teleop.yaml
+[2.493s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_config.yaml
+[2.493s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch
+[2.494s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py
+[2.494s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/joystick_teleop.launch.py
+[2.495s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller.py
+[2.495s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
+[2.495s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller
+[2.496s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh
+[2.496s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv
+[2.496s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh
+[2.496s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv
+[2.497s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash
+[2.497s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh
+[2.497s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh
+[2.498s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv
+[2.498s] -- Installing: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv
+[2.536s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller
+[2.536s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake
+[2.537s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake
+[2.538s] -- Up-to-date: /home/filo/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.xml
+[2.544s] Invoked command in '/home/filo/bumperbot_ws/build/bumperbot_controller' returned '0': /usr/bin/cmake --install /home/filo/bumperbot_ws/build/bumperbot_controller
