@@ -1,10 +1,10 @@
-# 🤖 BumperBot - Autonomous Driving Car with ROS2
+# 🤖 Trika - Autonomous Driving Car with ROS2
 
 [![ROS2](https://img.shields.io/badge/ROS2-Humble-blue.svg)](https://docs.ros.org/en/humble/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen.svg)]()
 
-A comprehensive ROS2-based autonomous driving car project featuring advanced robotics control, localization, and simulation capabilities. BumperBot is designed for educational purposes and research in autonomous vehicle development.
+A comprehensive ROS2-based autonomous driving car project featuring advanced robotics control, localization, and simulation capabilities. Trika is designed for educational purposes and research in autonomous vehicle development.
 
 ## 📋 Table of Contents
 
@@ -49,15 +49,15 @@ A comprehensive ROS2-based autonomous driving car project featuring advanced rob
 ## 📁 Project Structure
 
 ```
-bumperbot_ws/
+trika_ws/
 ├── src/
-│   ├── bumperbot_controller/     # Robot control and motion planning
-│   ├── bumperbot_description/    # URDF models and visualization
-│   ├── bumperbot_firmware/       # Low-level hardware interface
-│   ├── bumperbot_localization/   # SLAM and navigation
-│   ├── bumperbot_msgs/          # Custom message and service definitions
-│   ├── bumperbot_cpp_examples/  # C++ implementation examples
-│   └── bumperbot_py_examples/   # Python implementation examples
+│   ├── trika_controller/     # Robot control and motion planning
+│   ├── trika_description/    # URDF models and visualization
+│   ├── trika_firmware/       # Low-level hardware interface
+│   ├── trika_localization/   # SLAM and navigation
+│   ├── trika_msgs/          # Custom message and service definitions
+│   ├── trika_cpp_examples/  # C++ implementation examples
+│   └── trika_py_examples/   # Python implementation examples
 ├── install/                     # Built packages
 ├── log/                        # Build and runtime logs
 └── README.md                   # This file
@@ -67,13 +67,13 @@ bumperbot_ws/
 
 | Package | Description | Language |
 |---------|-------------|----------|
-| `bumperbot_controller` | Motion control, wheel controllers, teleoperation | C++/Python |
-| `bumperbot_description` | URDF models, Gazebo integration, visualization | XML/XACRO |
-| `bumperbot_firmware` | Hardware abstraction layer | C++ |
-| `bumperbot_localization` | SLAM, navigation, pose estimation | C++/Python |
-| `bumperbot_msgs` | Custom ROS2 messages and services | IDL |
-| `bumperbot_cpp_examples` | C++ implementation examples | C++ |
-| `bumperbot_py_examples` | Python implementation examples | Python |
+| `trika_controller` | Motion control, wheel controllers, teleoperation | C++/Python |
+| `trika_description` | URDF models, Gazebo integration, visualization | XML/XACRO |
+| `trika_firmware` | Hardware abstraction layer | C++ |
+| `trika_localization` | SLAM, navigation, pose estimation | C++/Python |
+| `trika_msgs` | Custom ROS2 messages and services | IDL |
+| `trika_cpp_examples` | C++ implementation examples | C++ |
+| `trika_py_examples` | Python implementation examples | Python |
 
 ## 🔧 Prerequisites
 
@@ -104,8 +104,8 @@ sudo apt install python3-vcstool
 ### 1. Clone the Repository
 ```bash
 # Create workspace directory
-mkdir -p ~/bumperbot_ws/src
-cd ~/bumperbot_ws/src
+mkdir -p ~/trika_ws/src
+cd ~/trika_ws/src
 
 # Clone the repository
 git clone <repository-url> .
@@ -114,7 +114,7 @@ git clone <repository-url> .
 ### 2. Install Dependencies
 ```bash
 # Navigate to workspace root
-cd ~/bumperbot_ws
+cd ~/trika_ws
 
 # Install dependencies
 rosdep install --from-paths src --ignore-src -r -y
@@ -134,25 +134,25 @@ source install/setup.bash
 ### 1. Launch Simulation
 ```bash
 # Launch Gazebo simulation with robot
-ros2 launch bumperbot_description gazebo.launch.py
+ros2 launch trika_description gazebo.launch.py
 ```
 
 ### 2. Start Controllers
 ```bash
 # Launch robot controllers
-ros2 launch bumperbot_controller controller.launch.py
+ros2 launch trika_controller controller.launch.py
 ```
 
 ### 3. Teleoperation
 ```bash
 # Launch joystick teleoperation
-ros2 launch bumperbot_controller joystick_teleop.launch.py
+ros2 launch trika_controller joystick_teleop.launch.py
 ```
 
 ### 4. Visualization
 ```bash
 # Launch RViz for visualization
-ros2 launch bumperbot_description display.launch.py
+ros2 launch trika_description display.launch.py
 ```
 
 ## 🎮 Usage
@@ -177,34 +177,34 @@ ros2 run tf2_tools view_frames
 ros2 param list
 
 # Get specific parameter
-ros2 param get /bumperbot_controller wheel_radius
+ros2 param get /trika_controller wheel_radius
 
 # Set parameter
-ros2 param set /bumperbot_controller wheel_radius 0.035
+ros2 param set /trika_controller wheel_radius 0.035
 ```
 
 #### Service Calls
 ```bash
 # Call custom service
-ros2 service call /add_two_ints bumperbot_msgs/srv/AddTwoInts "{a: 5, b: 3}"
+ros2 service call /add_two_ints trika_msgs/srv/AddTwoInts "{a: 5, b: 3}"
 
 # Get transform service
-ros2 service call /get_transform bumperbot_msgs/srv/GetTransform "{frame_id: 'base_link', child_frame_id: 'wheel_left_link'}"
+ros2 service call /get_transform trika_msgs/srv/GetTransform "{frame_id: 'base_link', child_frame_id: 'wheel_left_link'}"
 ```
 
 ### Python Examples
 ```python
 # Publisher example
-ros2 run bumperbot_py_examples simple_publisher
+ros2 run trika_py_examples simple_publisher
 
 # Subscriber example
-ros2 run bumperbot_py_examples simple_subscriber
+ros2 run trika_py_examples simple_subscriber
 
 # Service client example
-ros2 run bumperbot_py_examples simple_service_client
+ros2 run trika_py_examples simple_service_client
 
 # TF kinematics example
-ros2 run bumperbot_py_examples simple_tf_kinematics
+ros2 run trika_py_examples simple_tf_kinematics
 ```
 
 ## 🎯 Simulation
@@ -220,13 +220,13 @@ The project includes comprehensive Gazebo simulation support:
 ### Launch Files
 ```bash
 # Full simulation with controllers
-ros2 launch bumperbot_description gazebo.launch.py
+ros2 launch trika_description gazebo.launch.py
 
 # Display only (no physics)
-ros2 launch bumperbot_description display.launch.py
+ros2 launch trika_description display.launch.py
 
 # Controller with error modeling
-ros2 launch bumperbot_controller controller.launch.py use_simple_controller:=false
+ros2 launch trika_controller controller.launch.py use_simple_controller:=false
 ```
 
 ### Configuration
@@ -273,8 +273,8 @@ Key simulation parameters can be adjusted:
 ### Services
 | Service | Type | Description |
 |---------|------|-------------|
-| `/add_two_ints` | `bumperbot_msgs/AddTwoInts` | Simple arithmetic service |
-| `/get_transform` | `bumperbot_msgs/GetTransform` | TF transform query |
+| `/add_two_ints` | `trika_msgs/AddTwoInts` | Simple arithmetic service |
+| `/get_transform` | `trika_msgs/GetTransform` | TF transform query |
 
 ### Parameters
 | Parameter | Type | Default | Description |
